@@ -1,0 +1,45 @@
+.MainBanner {
+  background-color: rgb(255, 221, 109);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .main_banner__contents {
+    width: 100%;
+    max-width: 680px;
+    padding: 210px 20px;
+
+    .main_banner__text {
+      text-align: center;
+      margin-bottom: 35px;
+
+      h2 {
+        font-size: 34px;
+        font-weight: 500;
+        margin-bottom: 25px;
+        letter-spacing: 1px;
+      }
+
+      p {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.2;
+        letter-spacing: 1px;
+      }
+    }
+
+    .main_banner__cta {
+      text-align: center;
+
+      button {
+        font-size: 20px;
+        font-weight: 300;
+        padding: 10px 16px;
+        border-radius: 8px;
+        border: 1px solid black;
+        background: transparent;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

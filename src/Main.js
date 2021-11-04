@@ -1,5 +1,6 @@
 import './Main.css';
 import Header from './components/Header/Header';
+import MainBanner from './components/MainBanner/MainBanner';
 
 function Main() {
 
@@ -7,6 +8,7 @@ function Main() {
     <div className="Main">
 
       <Header />
+      <MainBanner />
 
     </div>
   );

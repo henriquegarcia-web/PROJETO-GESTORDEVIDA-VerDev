@@ -1,0 +1,50 @@
+.MainBanner {
+  background-color: #ffdd6d;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.MainBanner .main_banner__contents {
+  width: 100%;
+  max-width: 680px;
+  padding: 210px 20px;
+}
+
+.MainBanner .main_banner__contents .main_banner__text {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.MainBanner .main_banner__contents .main_banner__text h2 {
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.MainBanner .main_banner__contents .main_banner__text p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+.MainBanner .main_banner__contents .main_banner__cta {
+  text-align: center;
+}
+
+.MainBanner .main_banner__contents .main_banner__cta button {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background: transparent;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=MainBanner.css.map */
